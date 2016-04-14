@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    border: 1px solid #999;
+    background: #eee;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+nav, article, aside {
+    padding: 20px;
+    border: 1px solid #999;
+    background: #fff;
+}
+.inner {
+    width: 100%;
+    float: left;
+    margin-right: -120px;
+    padding-right: 20px;
+}
+nav {
+    width: 200px;
+    float: left;
+}
+span {
+    font-size: 0.5em;
+    position: absolute;
+    top: 60px;
+    left: 160px;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+article {
+    margin-right: 120px;
+    margin-left: 220px;
+    overflow: hidden;
+}
+aside {
+    width: 120px;
+    float: left;
+    padding-bottom: 0;
+}
+aside img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+

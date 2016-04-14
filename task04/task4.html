@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task4</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .rectangle {
+            width: 400px;
+            height: 200px;
+            background: #ccc;
+            margin: 0 auto;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .sector {
+            width: 50px;
+            height: 50px;
+            background: #fc0;
+            border-radius: 50px 0 0;
+        }
+        .top {
+            transform: rotate(180deg);
+        }
+        .bottom {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle">
+        <div class="sector top"></div>
+        <div class="sector bottom"></div>
+    </div>
+</body>
+</html>
