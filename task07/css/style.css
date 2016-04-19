@@ -169,10 +169,6 @@ form {
     background: #BF4E48;
     color: #fff;
 }
-input {
-    /*background: url("../img/input.png") right center no-repeat;*/
-}
-
 .activity {
     height: 607px;
     width: 100%;
@@ -196,7 +192,6 @@ article {
 }
 .part-one {
     height: 567px;
-    /*width: 425px;*/
 }
 .part-one img {
     float: left;
@@ -307,9 +302,6 @@ article {
 }
 .about-vol p {
     width: 292px;
-    /*white-space: nowrap;*/
-    /*text-overflow: ellipsis;*/
-    /*overflow: hidden;*/
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -351,10 +343,7 @@ textarea {
     width: 638px;
     height: 41px;
     resize: none;
-
 }
-
-
 
 /*footer*/
 footer {
